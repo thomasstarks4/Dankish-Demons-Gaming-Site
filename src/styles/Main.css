@@ -1,0 +1,13 @@
+.bg-dank {
+  background-color: #0b4a1c;
+  color: white;
+}
+
+.app-container {
+  min-height: 100vh; /* Ensure at least the full height of the viewport */
+  width: 100vw; /* Ensure full width of the viewport */
+  /* background-color: black; */
+  background-size: cover; /* Cover the entire space */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
