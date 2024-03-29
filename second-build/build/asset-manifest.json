@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.484b5932.css",
+    "main.js": "/static/js/main.2e846c71.js",
+    "static/js/453.b81063e3.chunk.js": "/static/js/453.b81063e3.chunk.js",
+    "static/media/sleeping-dankish-demon-no-bg.png": "/static/media/sleeping-dankish-demon-no-bg.2b355993029c66a5b884.png",
+    "static/media/animated-logo.mp4": "/static/media/animated-logo.52a5bbe3c982613f6d74.mp4",
+    "static/media/TeenyTinyFont.ttf": "/static/media/TeenyTinyFont.9286737bac4de76058c7.ttf",
+    "index.html": "/index.html",
+    "main.484b5932.css.map": "/static/css/main.484b5932.css.map",
+    "main.2e846c71.js.map": "/static/js/main.2e846c71.js.map",
+    "453.b81063e3.chunk.js.map": "/static/js/453.b81063e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.484b5932.css",
+    "static/js/main.2e846c71.js"
+  ]
+}

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "TeenyTinyFont";
+  src: url("../fonts/TeenyTinyFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .bg-dank {
   background-color: #0b4a1c;
   color: white;
@@ -5,9 +11,64 @@
 
 .app-container {
   min-height: 100vh; /* Ensure at least the full height of the viewport */
-  width: 100vw; /* Ensure full width of the viewport */
+  min-width: 100vw; /* Ensure full width of the viewport */
   /* background-color: black; */
   background-size: cover; /* Cover the entire space */
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Do not repeat the image */
+}
+body,
+html {
+  background-color: #000000; /* Deep black background */
+  color: white;
+  font-family: "TeenyTinyFont", sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center text for small devices */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video {
+  /* Adjust these values as necessary to fit your design */
+  width: auto; /* Adjust based on your requirement */
+  height: auto; /* Adjust based on your requirement */
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+}
+
+.ddg-nav-link {
+  text-decoration: none;
+  color: gold;
+  margin: 0 10px; /* Adjust spacing as needed */
+  padding: 5px 10px; /* Adjust padding as needed */
+}
+.ddg-nav-link:hover {
+  transform: scale(1.2); /* Grow the links to 110% of their size */
+  background-color: #581111;
+}
+
+.ddg-nav-link:active {
+  transform: scale(
+    0.9
+  ); /* Optional: shrink the links a bit when they are clicked */
+}
+.ddg-nav-links {
+  list-style-type: none;
+}
+
+.ddg-nav-links li {
+  padding-top: 1%;
+  padding-bottom: 1%;
 }

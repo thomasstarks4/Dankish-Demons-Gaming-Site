@@ -1,10 +1,14 @@
-import React, { useState } from "react";
-
+import React from "react";
+import logoSrc from "../images/sleeping-dankish-demon-no-bg.png";
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dank">
-      <a className="navbar-brand" href="/">
-        Home
+    <nav className="navbar navbar-expand-lg navbar-light bg-dank px-2 mb-4">
+      <a className="navbar-brand ddg-nav-link" href="/">
+        <img
+          style={{ height: "75px", width: "75px" }}
+          src={logoSrc}
+          alt="Logo"
+        />
       </a>
       <button
         className="navbar-toggler"
@@ -20,13 +24,13 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link" href="/about">
-              About
+            <a className="nav-link ddg-nav-link" href="/contact">
+              Contact
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contact">
-              Contact
+            <a className="nav-link ddg-nav-link" href="/in-progress">
+              About
             </a>
           </li>
         </ul>
