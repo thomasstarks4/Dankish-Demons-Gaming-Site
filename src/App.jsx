@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import UnderConstruction from "./components/UnderConstruction";
+import Game from "./components/KingsBirth";
 // Basic components/views
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/kingsbirth" element={<Game />} />
             <Route path="*" element={<UnderConstruction />} />
           </Routes>
         </div>

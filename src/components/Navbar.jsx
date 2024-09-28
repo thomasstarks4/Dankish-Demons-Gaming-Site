@@ -33,6 +33,11 @@ function Navbar() {
               About
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link ddg-nav-link" href="/kingsbirth">
+              King's Birth
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
