@@ -14,38 +14,12 @@ const Contact = () => {
         </li>
         <li>
           <a
+            rel="noreferrer"
             target="_blank"
-            href="/work-in-progress"
+            href="https://www.patreon.com/dankishdemonsgaming"
             className="ddg-nav-link nav-link"
           >
             Patreon
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="/work-in-progress"
-            className="ddg-nav-link nav-link"
-          >
-            Games
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="/work-in-progress"
-            className="ddg-nav-link nav-link"
-          >
-            Games In Progress
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="/work-in-progress"
-            className="ddg-nav-link nav-link"
-          >
-            Send us an email!
           </a>
         </li>
       </ul>

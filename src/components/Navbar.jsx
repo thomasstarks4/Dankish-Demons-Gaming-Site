@@ -34,8 +34,8 @@ function Navbar() {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link ddg-nav-link" href="/kingsbirth">
-              King's Birth
+            <a className="nav-link ddg-nav-link" href="/progress">
+              Games In Progress
             </a>
           </li>
         </ul>
